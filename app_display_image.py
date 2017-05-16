@@ -5,6 +5,7 @@
 # Date: April 20 2016
 # Who worked on which functions: James worked on this file
 # Github link: https://github.com/honoriovega/CST205-Project3
+# Trello Link : https://trello.com/b/xlsKfNv7/team-256-project-3-cst-205
 
 # import libraries
 import os
