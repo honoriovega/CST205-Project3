@@ -1,3 +1,13 @@
+# Course: CST 205 
+# Title: app_display_multiple_images.py
+# Abstract: This file would display multiple images the user has uploaded
+#           The user would then be presented with a menu of options such as
+#           apply median filter, etc.
+# Authors: Honorio Vega, James Barquera
+# Date: April 20 2016
+# Who worked on which functions: Honorio Worked on this file
+# Github link: https://github.com/honoriovega/CST205-Project3
+
 import os
 
 

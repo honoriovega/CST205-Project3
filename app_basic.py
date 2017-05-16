@@ -1,5 +1,12 @@
 import os
 from flask import Flask, render_template, request
+# Course: CST 205 
+# Title: app_basic.py
+# Abstract: An implementation that is used to upload files
+# Authors: Honorio Vega, James Barquera
+# Date: April 20 2016
+# Who worked on which functions:  James Barquera worked on this file
+# Github link: https://github.com/honoriovega/CST205-Project3
 
 __author__ = 'ibininja'
 

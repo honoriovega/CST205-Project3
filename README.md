@@ -3,7 +3,6 @@
 ## Team Members 
 1. Honorio Vega
 2. James Barquera
-3. Kyle Cazares
 
 ## CST 205
 ## May 16 2016

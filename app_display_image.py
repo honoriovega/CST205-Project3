@@ -1,3 +1,12 @@
+# Course: CST 205 
+# Title: app_display_image
+# Abstract: This file is used to display the images.
+# Authors: Honorio Vega, James Barquera
+# Date: April 20 2016
+# Who worked on which functions: James worked on this file
+# Github link: https://github.com/honoriovega/CST205-Project3
+
+# import libraries
 import os
 from uuid import uuid4
 
@@ -42,6 +51,7 @@ def upload():
 def send_image(filename):
     return send_from_directory("images", filename)
 
+# Run the program
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080, debug=True)
 

@@ -1,11 +1,23 @@
+# Course: CST 205 
+# Title: app.py
+# Abstract: This is the main driver of the program it will be run
+# Authors: Honorio Vega, James Barquera
+# Date: April 20 2016
+# Who worked on which functions: Honorio worked on rout and index functions
+# and james worked on 2 route functions
+# Github link: https://github.com/honoriovega/CST205-Project3
+
+
 import os
 
+# import libraries
 from flask import Flask, request, render_template, send_from_directory
 
 __author__ = 'ibininja'
 
 app = Flask(__name__)
 
+# the path of the file
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -13,7 +25,7 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 def index():
     return render_template("upload.html")
 
-
+# used to handle upload of the files
 @app.route("/upload", methods=["POST"])
 def upload():
     folder_name = request.form['superhero']
